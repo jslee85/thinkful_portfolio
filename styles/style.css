@@ -47,9 +47,11 @@ h1 {
 
 .emailicon {
 	background-image: url(../images/emailicon.png);
+	display: inline-block;
 	height: 16px;
 	width: 23px;
 	float: right;
+	margin-top: 16px;
 }
 
 /*--- Body styles ---*/
