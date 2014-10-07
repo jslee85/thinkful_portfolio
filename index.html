@@ -13,17 +13,13 @@
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
-
-		<!-- JavaScript -->
-		<script src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="js/app.js"></script>
 	</head>
 	<body>
 		<header class="topbanner">
 			<nav class="menu container">
 				<ul>
-					<li><a href="scroll to work section">WORK</a></li>
-					<li><a href="scroll to about section">ABOUT ME</a></li>
+					<li><a href="#work" class="pagescroll">WORK</a></li>
+					<li><a href="#about" class="pagescroll">ABOUT ME</a></li>
 				</ul>
 				<a href="mailto:jslee@me.com" class="mailme"><i class="emailicon"></i></a>
 			</nav>
@@ -31,10 +27,10 @@
 				<h1>Hi. Welcome to my site. As you can see, it’s a work in progress.</h1>
 			</div>
 		</header>
-		<div class="workshortcuts container">
-			<a href="scroll to web section"><i class="web icon"></i></a>
-			<a href="scroll to print section"><i class="print icon"></i></a>
-			<a href="scroll to photography section"><i class="photography icon"></i></a>
+		<div class="workshortcuts container" id="work">
+			<a href="#web" class="pagescroll"><i class="web icon"></i></a>
+			<a href="#print" class="pagescroll"><i class="print icon"></i></a>
+			<a href="#photography" class="pagescroll"><i class="photography icon"></i></a>
 		</div>
 		<div class="container">
 			<section class="webwork" id="web">
@@ -76,11 +72,16 @@
 				<img src="images/p5.jpg" alt="Traina Calendar 1" class="thumbnail"/>
 			</section>
 		</div>
-		<section class="aboutme">
+		<section class="aboutme" id="about">
 			<div class="container">
 				<h3>ABOUT ME</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
 		</section>
+
+		<!-- JavaScript -->
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>

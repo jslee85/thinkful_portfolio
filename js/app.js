@@ -1,11 +1,11 @@
 $(document).ready(function () {
-	$(function() {
-		$('a.page-scroll').on('click', function(event) {
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1500, 'easeInOutExpo');
-			event.preventDefault();
+	$('.pagescroll').on('click', function(e) {
+		e.preventDefault();
+		var $anchor = $(this);
+		$('body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500, 'easeInOutCirc', function(){
+			document.location.hash = $anchor.attr('href');
 		});
 	});
 });
