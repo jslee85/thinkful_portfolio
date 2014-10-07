@@ -1,0 +1,139 @@
+* {
+	-webkit-box-sizing: border-box;	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;	/* Firefox, other Gecko */
+	box-sizing: border-box;			/* Opera/IE 8+ */
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+/*--- Header styles ---*/
+
+header {
+	height: 400px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	font-size: 14px;
+	font-family: Roboto, arial, sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: Raleway, arial, sans-serif;
+	font-weight: 200;
+	color: white;
+	line-height: 110%;
+	margin-right: 120px;
+	margin-top: 60px;
+}
+
+.topbanner {
+	background-image: url(../images/bannerimage.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.emailicon {
+	background-image: url(../images/emailicon.png);
+	height: 16px;
+	width: 23px;
+	float: right;
+}
+
+/*--- Body styles ---*/
+
+i {
+	font-style: normal;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 14px;
+	font-family: Roboto, arial, sans-serif;
+	font-weight: 500;
+	margin-top: 70px;
+	padding-bottom: 5px;
+}
+
+img {
+	margin: 10px 10px 10px 0px;
+	width: 200px;
+}
+
+.workshortcuts {
+	margin-top: -25px;
+}
+
+.icon {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+
+.web {
+	background-image: url(../images/webicon.png);	
+}
+
+.print {
+	background-image: url(../images/printicon.png);
+}
+
+.photography {
+	background-image: url(../images/photographyicon.png);
+}
+
+.webwork h2 {
+	color: #66a3c6;
+	border-bottom: 2px solid #66a3c6;
+}
+
+.printwork h2 {
+	color: #de756b;
+	border-bottom: 2px solid #de756b;
+}
+
+.photographywork h2 {
+	color: #9168b0;
+	border-bottom: 2px solid #9168b0;
+}
+
+/*--- About me styles ---*/
+
+h3 {
+	display: inline-block;
+	font-size: 14px;
+	font-family: Roboto, arial, sans-serif;
+	font-weight: 500;
+	margin-top: 50px;
+	color: black;
+}
+
+.aboutme p {
+	font-size: 18px;
+	font-family: Raleway, arial, sans-serif;
+	font-weight: 200;
+	color: #666666;
+	line-height: 150%;
+	margin-right: 120px;
+	margin-top: 15px;
+}
+
+.aboutme {
+	width: 100%;
+	height: 300px;
+	margin-top: 70px;
+	background-color: #f2f2f2;
+}
