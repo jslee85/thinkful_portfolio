@@ -69,6 +69,13 @@ h2 {
 
 img {
 	margin: 10px 10px 10px 0px;
+}
+
+.mainimage {
+	width: 700px;
+}
+
+.thumbnail {
 	width: 200px;
 }
 
